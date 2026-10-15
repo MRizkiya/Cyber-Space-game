@@ -1,10 +1,10 @@
-# ⚡ Cyber Defender - Modular 2D Web Game Framework
+# Cyber Defender - Modular 2D Web Game Framework
 
 Framework game 2D modular berbasis **HTML5 Canvas**, **Vanilla JavaScript (ES Modules)**, dan didukung **Vite**. Menampilkan 10 Stage penuh aksi yang terbagi menjadi **World 1 (Neon Core)** dan **World 2 (Quantum Rift)** dengan ragam tipe musuh unik dan Boss interaktif.
 
 ---
 
-## 📁 Struktur Direktori & Framework
+## Struktur Direktori & Framework
 
 ```text
 game_sederhana/
@@ -47,16 +47,16 @@ game_sederhana/
 
 ---
 
-## 🌌 Rincian 10 Stage & Sistem 2 World
+## Rincian 10 Stage & Sistem 2 World
 
-### 🌐 World 1: Neon Core (Stage 1 - 5)
+### World 1: Neon Core (Stage 1 - 5)
 - **Stage 1**: Protocol Awakening (10 Drone Standar)
 - **Stage 2**: Rapid Interception (14 Drone Cepat)
 - **Stage 3**: Heavy Assault (18 Tank Drone Lapis Baja)
 - **Stage 4**: Cyber Onslaught (22 Unit Gabungan)
 - **Stage 5**: Titan Nexus Confrontation (12 Minion + **BOSS: TITAN NEXUS**)
 
-### 🌌 World 2: Quantum Rift (Stage 6 - 10)
+### World 2: Quantum Rift (Stage 6 - 10)
 - **Stage 6**: Quantum Horizon (16 Phantom Drone - Jubah Teleportasi)
 - **Stage 7**: Perimeter Breach (20 Sniper Drone - Laser Jarak Jauh)
 - **Stage 8**: Volatile Swarm (24 Splitter Drone - Membelah saat Hancur)
@@ -66,7 +66,7 @@ game_sederhana/
 
 ---
 
-## 🎮 Kontrol Permainan
+## Kontrol Permainan
 
 - **Bergerak**: `W`, `A`, `S`, `D` atau tombol Panah (`↑`, `←`, `↓`, `→`)
 - **Tembak**: Klik Kiri Mouse atau tombol `Space`
