@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Cyber Defender - Web Game Framework</title>
+    <meta name="description" content="Framework game web 2D modular bertenaga HTML5 Canvas dan JavaScript Vanilla dengan efek visual neon dan audio prosedural." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app" class="game-wrapper">
+      <header class="game-header">
+        <div class="logo-area">
+          <span class="logo-icon">⚡</span>
+          <h1 class="game-title">Cyber Defender</h1>
+          <span class="badge">Modular Engine</span>
+        </div>
+
+        <div class="header-actions">
+          <button id="btn-fullscreen" class="action-btn" title="Layar Penuh" aria-label="Layar Penuh">
+            ⛶
+          </button>
+        </div>
+      </header>
+
+      <main class="canvas-container">
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+      </main>
+
+      <footer class="game-footer">
+        <div class="instructions-panel">
+          <div class="control-tag"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> / <kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd> Gerak</div>
+          <div class="control-tag"><kbd>Mouse Klik</kbd> / <kbd>Space</kbd> Tembak</div>
+          <div class="control-tag"><kbd>P</kbd> Pause</div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
